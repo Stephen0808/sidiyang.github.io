@@ -1,0 +1,74 @@
+{
+    "fields": {
+        "pdf": "PDF",
+        "project": "Project",
+        "code": "Code",
+        "huggingface": "Hugging Face",
+        "replicate": "Replicate",
+        "openxlab": "OpenXLab",
+        "dataset": "Dataset",
+        "colab": "Colab",
+        "video": "Video",
+        "tutorial": "Tutorial",
+        "extension": "Extended Report",
+        "technical": "Technical Report"
+    },
+    "topics": [
+        "Visual Enhancement", 
+        "IQA"
+    ],
+    "publications": [
+        {
+            "title": "Taming Lookup Tables for Efficient Image Retouching",
+            "authors": "Sidi Yang*, Binxiao Huang*, Mingdeng Cao, Yatai Ji, Hanzhong Guo, Ngai Wong, Yujiu Yang",
+            "conference": "in Proceedings of European Conference on Computer Vision <strong>(ECCV)</strong>",
+            "year": 2024,
+            "highlight": true,
+            "img": "assets/img/papers/Conf2024_ICELUT.png",
+            "pdf": "https://arxiv.org/pdf/2403.19238",
+            "code": "https://github.com/Stephen0808/ICELUT",
+            "topics": ["Visual Enhancement"],
+            "note": "<i><font color=\"#097b3a\">ICELUT reaches an unprecedented speed of 0.4ms on GPU and 7ms on CPU per image.", 
+            "bibtex": "@article{yang2024taming,\n  title={Taming Lookup Tables for Efficient Image Retouching},\n  author={Yang, Sidi and Huang, Binxiao and Cao, Mingdeng and Ji, Yatai and Guo, Hanzhong and Wong, Ngai and Yang, Yujiu},\n  journal={arXiv preprint arXiv:2403.19238},\n  year={2024}\n}"
+        },
+        {
+            "title": "Rolling Shutter Correction with Intermediate Distortion Flow Estimation",
+            "authors": "Mingdeng Cao, Sidi Yang, Yujiu Yang, Yinqiang Zheng",
+            "conference": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>",
+            "year": 2024,
+            "highlight": true,
+            "img": "assets/img/papers/Conf2024_BSRFC.png",
+            "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cao_Rolling_Shutter_Correction_with_Intermediate_Distortion_Flow_Estimation_CVPR_2024_paper.pdf",
+            "code": "https://github.com/ljzycmd/DFRSC",
+            "topics": ["Visual Enhancement"],
+            "note": "<i><font color=\"#097b3a\">DFRSC directly estimates the distortion flow and rectifies the RS image with the backward warping operation.",
+            "bibtex": "@inproceedings{cao2024rolling,\n  title={Rolling Shutter Correction with Intermediate Distortion Flow Estimation},\n  author={Cao, Mingdeng and Yang, Sidi and Yang, Yujiu and Zheng, Yinqiang},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={25338--25347},\n  year={2024}\n  }"
+},
+        {
+            "title": "<strong>MANIQA</strong>: Multi-dimension Attention Network for No-Reference Image Quality Assessment",
+            "authors": "Sidi Yang*, Tianhe Wu*, Shuwei Shi, Shanshan Lao, Yuan Gong, Mingdeng Cao, Jiahao Wang, Yujiu Yang",
+            "conference": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong>",
+            "year": 2022,
+            "highlight": true,
+            "img": "assets/img/papers/Conf2022_MANIQA.png",
+            "pdf": "https://arxiv.org/pdf/2204.08958",
+            "code": "https://github.com/IIGROUP/MANIQA",
+            "topics": ["IQA"],
+            "note": "<i><font color=\"#097b3a\">The Winner of NTIRE 2022 IQA Track 2: No-Reference.",
+            "bibtex": "@inproceedings{yang2022maniqa,\n  title={Maniqa: Multi-dimension attention network for no-reference image quality assessment},\n  author={Yang, Sidi and Wu, Tianhe and Shi, Shuwei and Lao, Shanshan and Gong, Yuan and Cao, Mingdeng and Wang, Jiahao and Yang, Yujiu},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={1191--1200},\n  year={2022}\n  }"
+},
+        {
+            "title": "Attentions help cnns see better: Attention-based hybrid image quality assessment network",
+            "authors": "Shanshan Lao, Yuan Gong, Shuwei Shi, Sidi Yang, Tianhe Wu, Jiahao Wang, Weihao Xia, Yujiu Yang",
+            "conference": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong>",
+            "year": 2022,
+            "highlight": true,
+            "img": "assets/img/papers/Conf2022_AHIQ.png",
+            "pdf": "https://arxiv.org/pdf/2204.10485",
+            "code": "https://github.com/IIGROUP/AHIQ",
+            "topics": ["IQA"],
+            "note": "<i><font color=\"#097b3a\">The Winner of NTIRE 2022 IQA Track 1: Full-Reference.",
+            "bibtex": "@inproceedings{lao2022attentions,\n  title={Attentions help cnns see better: Attention-based hybrid image quality assessment network},\n  author={Lao, Shanshan and Gong, Yuan and Shi, Shuwei and Yang, Sidi and Wu, Tianhe and Wang, Jiahao and Xia, Weihao and Yang, Yujiu},\n  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},\n  pages={1140--1149},\n  year={2022}\n  }"
+        }
+    ]
+}

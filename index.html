@@ -161,12 +161,13 @@
                             <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=TTG2mY8AAAAJ&hl=zh-CN" target="_blank" class="mobile-display">[<font color="#4285F4">G</font><font color="#DB4437">o</font><font color="#F4B400">o</font><font color="#4285F4">g</font><font color="#0F9D58">l</font><font color="#DB4437">e</font> Scholar]</a></li>
                         </ul>
                     </div> <!--#publication-switch -->
-                <!--<div id="publication-switch">
+                <div id="publication-switch">
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="javascript:void(0)" class="disabled"> </a></li>
                             <li class="list-inline-item"><a href="javascript:void(0)"> </a></li>
                         </ul>
-                    </div> #publication-switch -->
+                    </div> 
+                    <!-- #publication-switch -->
                 </h4>
                 <hr>
                 <ul id="pub-topics" class="list-inline">
@@ -185,12 +186,12 @@
                 <div id="full-list-publication" class="hide">
                     <h5 class="conference">Conference Papers</h5>
                     <ul class="conference pub-list"></ul>
-                    <h5 class="journal">Journal Papers</h5>
-                    <ul class="journal pub-list"></ul>
+                    <!-- <h5 class="journal">Journal Papers</h5>
+                    <ul class="journal pub-list"></ul> -->
                     <h5 class="workshop">Workshop Papers</h5>
                     <ul class="workshop pub-list"></ul>
-                    <h5 class="preprint">Preprint Papers</h5>
-                    <ul class="preprint pub-list"></ul>
+                    <!-- <h5 class="preprint">Preprint Papers</h5>
+                    <ul class="preprint pub-list"></ul> -->
                 </div> <!-- #full-list-publication -->
             </div> <!-- .section -->
             <div id="experience" class="section">
@@ -380,7 +381,7 @@
         function loadPublications(publications, fields, fullName) {
             for (let i = 0; i < publications.length; ++ i) {
                 let p = publications[i],
-                    dest = 'journal' in p ? 'journal' : 'conference' in p ? 'conference' : 'preprint' in p ? 'preprint' : 'workshop',
+                    dest = 'journal' in p ? 'journal' : 'conference' in p ? 'conference'  : 'workshop',
                     links = ''
 
                 for ( let f in fields ) {

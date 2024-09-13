@@ -177,6 +177,8 @@
                     <!-- <ul class="preprint pub-list"></ul> -->
                     <h5 class="conference">Conference Papers</h5>
                     <ul class="conference pub-list"></ul>
+                    <h5 class="conference">Workshop Papers</h5>
+                    <ul class="workshop pub-list"></ul>
                     <!-- <h5 class="journal">Journal Papers</h5>
                     <ul class="journal pub-list"></ul> -->
                 </div> 
@@ -376,7 +378,7 @@
         function loadPublications(publications, fields, fullName) {
             for (let i = 0; i < publications.length; ++ i) {
                 let p = publications[i],
-                    dest = 'journal' in p ? 'journal' : 'conference' in p ? 'conference' : 'preprint',
+                    dest = 'journal' in p ? 'journal' : 'conference' in p ? 'conference' : 'preprint' in p ? 'preprint' : 'workshop',
                     links = ''
 
                 for ( let f in fields ) {

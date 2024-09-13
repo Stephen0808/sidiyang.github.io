@@ -47,7 +47,7 @@
         {
             "title": "<strong>MANIQA</strong>: Multi-dimension Attention Network for No-Reference Image Quality Assessment",
             "authors": "Sidi Yang*, Tianhe Wu*, Shuwei Shi, Shanshan Lao, Yuan Gong, Mingdeng Cao, Jiahao Wang, Yujiu Yang",
-            "conference": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong>",
+            "workshop": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong>",
             "year": 2022,
             "highlight": true,
             "img": "assets/img/papers/Conf2022_MANIQA.png",
@@ -60,7 +60,7 @@
         {
             "title": "Attentions help cnns see better: Attention-based hybrid image quality assessment network",
             "authors": "Shanshan Lao, Yuan Gong, Shuwei Shi, Sidi Yang, Tianhe Wu, Jiahao Wang, Weihao Xia, Yujiu Yang",
-            "conference": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong>",
+            "workshop": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong>",
             "year": 2022,
             "highlight": true,
             "img": "assets/img/papers/Conf2022_AHIQ.png",

@@ -21,7 +21,7 @@
         {
             "title": "DnLUT: Ultra-Efficient Color Image Denoising via Channel-Aware Lookup Tables",
             "authors": "Sidi Yang, Binxiao Huang, Yulun Zhang, Dahai Yu, Yujiu Yang, Ngai Wong",
-            "conference": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition <strong>(ECCV)</strong>",
+            "conference": "in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>",
             "year": 2025,
             "highlight": true,
             "img": "assets/img/papers/Conf2025_DnLUT.png",
